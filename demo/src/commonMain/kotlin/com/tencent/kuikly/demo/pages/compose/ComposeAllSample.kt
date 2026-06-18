@@ -164,6 +164,8 @@ internal class ComposeAllSample : ComposeContainer() {
             DemoItem("ViewModel示例", "Lifecycle和ViewModel", "ViewModelDemo"),
             DemoItem("GradientAnimationDemo", "Offset or color animate ", "GradientAnimationDemo"),
             DemoItem("重组性能分析", "RecompositionProfiler追踪重组热点", "RecompositionProfilerDemo"),
+            DemoItem("TextFieldEmoji", "TextField 自定义表情示例（暂不支持鸿蒙）", "TextFieldEmojiDemo"),
+            DemoItem("AI Chat完整页面", "模型选择弹窗 + AI对话列表 + 附件弹窗", "AttachmentSheetDemo"),
         )
 
     @Composable
